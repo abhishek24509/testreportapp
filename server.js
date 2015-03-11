@@ -5,5 +5,5 @@ http.createServer(function(req,res){
    res.writeHead(200,{'Content-type':'text/plain'});
    res.end(data);
    });
-}).listen(1337,'127.0.0.1');
+}).listen(3000,'0.0.0.0');
 console.log('Webserver has started');
